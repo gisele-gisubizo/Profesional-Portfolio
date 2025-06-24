@@ -40,8 +40,9 @@ export default function Header() {
           <a href="#about" onClick={(e) => scrollToTop(e, 'about')}><FaUser /> About</a>
           <a href="#services" onClick={(e) => scrollToTop(e, 'services')}><FaBriefcase /> Services</a>
           <a href="#portfolio" onClick={(e) => scrollToTop(e, 'portfolio')}><FaBriefcase /> Portfolio</a>
+           <a href="#skills" onClick={(e) => scrollToTop(e, 'skills')}><FaEnvelope /> Skills</a>
           <a href="#contact" onClick={(e) => scrollToTop(e, 'contact')}><FaEnvelope /> Contact</a>
-          <a href="#skills" onClick={(e) => scrollToTop(e, 'skills')}><FaEnvelope /> Skills</a>
+         
         </nav>
       </div>
     </header>
