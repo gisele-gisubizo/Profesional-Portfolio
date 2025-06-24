@@ -27,14 +27,14 @@ export default function Portfolio() {
 
   const figmaDesigns = [
     { 
-      title: "Cleaning Company Admin Page", 
-      image: figma1,
-      description: "Figma design for an admin dashboard tailored for a cleaning company, featuring task management, employee scheduling, and performance metrics, created to optimize operational efficiency."
-    },
-    { 
       title: "Cleaning Company Mobile App", 
       image: figma2,
       description: "Figma design for a mobile app for a cleaning company, offering on-the-go booking, service tracking, and customer feedback features for enhanced mobility and user convenience."
+    },
+    { 
+      title: "Cleaning Company Admin Page", 
+      image: figma1,
+      description: "Figma design for an admin dashboard tailored for a cleaning company, featuring task management, employee scheduling, and performance metrics, created to optimize operational efficiency."
     },
     { 
       title: "Organization Creation Form", 
