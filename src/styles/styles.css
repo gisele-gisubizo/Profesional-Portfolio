@@ -372,30 +372,60 @@ nav a.active::after {
   box-shadow: 0 6px 20px rgba(107, 72, 255, 0.5);
 }
 
-/* Footer */
+
 footer {
-  background-color: #16213e;
-  padding: 2rem 0;
+  /* Removed background color as requested */
+  color: #fff;
+  padding: 20px 0;
   text-align: center;
-  border-top: 1px solid rgba(107, 72, 255, 0.1);
 }
 
-footer p {
-  color: #a3bffa;
-  font-size: 1rem;
-  margin-bottom: 1rem;
+.container {
+  max-width: 1200px;
+  margin: 0 auto; /* Ensures equal left and right margins */
+  padding: 0 1rem; /* Consistent padding for responsiveness */
 }
 
-footer a {
-  color: #6b48ff;
-  text-decoration: none;
-  margin: 0 0.75rem;
-  font-size: 1.2rem;
-  transition: color 0.3s ease;
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
 }
 
-footer a:hover {
-  color: #5a3ce6;
+.social-links a {
+  color: #fff; /* Default icon color */
+  font-size: 24px;
+  transition: color 0.3s;
+  text-decoration: none; /* Ensure no underline */
+}
+
+.social-links a:hover {
+  color: #007bff; /* Hover color */
+}
+
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-links a {
+  color: #fff;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #007bff;
 }
 
 /* Skills Section */
@@ -428,7 +458,7 @@ footer a:hover {
   bottom: 0;
   left: 50%;
   width: 1px;
-  background-color: rgba(107, 72, 255, 0.2);
+  
   transform: translateX(-50%);
 }
 
