@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 export default function Header() {
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['hero', 'about', 'services', 'portfolio', 'contact'];
+      const sections = ['hero', 'about', 'services', 'portfolio', 'contact','skills'];
       const navLinks = document.querySelectorAll('nav a');
 
       sections.forEach((sectionId, index) => {
@@ -34,13 +34,14 @@ export default function Header() {
   return (
     <header>
       <div className="container">
-        <h1>Gisubizo Gisele</h1>
+        <h1>Her Portfolio</h1>
         <nav>
           <a href="#hero" onClick={(e) => scrollToTop(e, 'hero')}><FaHome /> Home</a>
           <a href="#about" onClick={(e) => scrollToTop(e, 'about')}><FaUser /> About</a>
           <a href="#services" onClick={(e) => scrollToTop(e, 'services')}><FaBriefcase /> Services</a>
           <a href="#portfolio" onClick={(e) => scrollToTop(e, 'portfolio')}><FaBriefcase /> Portfolio</a>
           <a href="#contact" onClick={(e) => scrollToTop(e, 'contact')}><FaEnvelope /> Contact</a>
+          <a href="#skills" onClick={(e) => scrollToTop(e, 'skills')}><FaEnvelope /> Skills</a>
         </nav>
       </div>
     </header>
